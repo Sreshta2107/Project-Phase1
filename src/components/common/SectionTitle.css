@@ -1,0 +1,14 @@
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-header h2 {
+  margin: 0 0 8px;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  color: var(--color-text);
+}
+
+.page-header p {
+  margin: 0;
+  color: var(--color-muted);
+}

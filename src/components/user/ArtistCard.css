@@ -1,0 +1,32 @@
+.artist-card {
+  padding: 20px;
+  display: grid;
+  gap: 16px;
+}
+
+.artist-card__avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary), #c4b5fd);
+  color: white;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.artist-card__body h3 {
+  margin: 0 0 6px;
+}
+
+.artist-card__body p,
+.artist-card__body small {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.artist-card__actions {
+  display: flex;
+  justify-content: flex-start;
+}

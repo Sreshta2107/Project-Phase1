@@ -1,0 +1,29 @@
+.app-button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.8rem 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.app-button:hover {
+  transform: translateY(-1px);
+  opacity: 0.96;
+}
+
+.app-button--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.app-button--secondary {
+  background: #f3e8ff;
+  color: var(--color-primary-dark);
+}
+
+.app-button--outline {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
